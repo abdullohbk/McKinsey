@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css file -->
+    <link rel="stylesheet" href="./styles/output.css" />
+    <!-- bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Css Link -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>McKinsey</title>
+  </head>
+  <body class="bg-[#EFEFEF]">
+    <!----------- DropDown ------------>
+    <div
+      class="dropDown1 bg-slate-800 w-[300px] py-5 px-8 absolute hide top-[80px] left-[480px]"
+    >
+      <p class="text-white my-4 hover:text-blue-500">Our Lidership</p>
+      <p class="text-white my-4 hover:text-blue-500">
+        Purpose Mission & Values
+      </p>
+      <p class="text-white my-4 hover:text-blue-500">Our History</p>
+      <p class="text-white my-4 hover:text-blue-500">Our Aspiration</p>
+      <p class="text-white my-4 hover:text-blue-500">Our governance</p>
+    </div>
+
+    <div
+      class="dropDown2 bg-slate-800 w-[300px] py-5 hide px-8 absolute top-[80px] left-[630px]"
+    >
+      <p class="text-white my-4 hover:text-blue-500">
+        Divercity, Equity & Inclusion
+      </p>
+      <p class="text-white my-4 hover:text-blue-500">Social Responsibility</p>
+      <p class="text-white my-4 hover:text-blue-500">
+        Environmental Sustainability
+      </p>
+      <p class="text-white my-4 hover:text-blue-500">2022 ESG Report</p>
+    </div>
+
+    <div
+      class="dropDown3 bg-slate-800 w-[300px] hide py-5 px-8 absolute top-[80px] left-[780px]"
+    >
+      <p class="text-white my-4 hover:text-blue-500">
+        Alliances & Acquisitions
+      </p>
+      <p class="text-white my-4 hover:text-blue-500">Solutions</p>
+      <p class="text-white my-4 hover:text-blue-500">
+        Client Capabilities Network
+      </p>
+      <p class="text-white my-4 hover:text-blue-500">Case Studies</p>
+    </div>
+    <!----------- DropDown ------------>
+
+    <!---------------- Header Section ------------>
+    <header class="bg-white px-4">
+      <nav class="flex items-center justify-between">
+        <div class="flex">
+          <i class="bi bi-list text-[35px]"></i>
+          <img src="./assets/images/logo.png" alt="logo" />
+        </div>
+        <ul class="flex items-center gap-[20px]">
+          <li class="font-light cursor-pointer">
+            <p class="text-[10px] mt-[-15px] font-bold">About Us</p>
+            Overview
+          </li>
+          <li class="font-light h-full cursor-pointer overview">
+            Who we are <i class="bi bi-chevron-down"></i>
+          </li>
+          <li class="font-light cursor-pointer commit">
+            Our commitments <i class="bi bi-chevron-down"></i>
+          </li>
+          <li class="font-light cursor-pointer work">
+            How we work <i class="bi bi-chevron-down"></i>
+          </li>
+          <li class="font-light cursor-pointer">Alumni</li>
+          <li class="font-light cursor-pointer">Media</li>
+          <li class="font-light cursor-pointer">McKisneyBlog</li>
+        </ul>
+
+        <div>
+          <div class="flex gap-1">
+            <a
+              href="#"
+              class="text-blue-500 border-b-4 border-white hover:border-blue-500"
+              >Sign in
+            </a>
+            <p>|</p>
+            <a
+              href="#"
+              class="text-blue-500 border-b-4 border-white hover:border-blue-500"
+              >Subscribe</a
+            >
+          </div>
+          <i class="bi bi-search text-[35px] ml-[80px]"></i>
+        </div>
+      </nav>
+    </header>
+    <!---------------- Header Section ------------>
+    <main>
+      <!------------- Intro Section ----------->
+      <section id="intro">
+        <div class="container mx-auto px-4 py-[30px]">
+          <div class="flex items-center mb-[30px]">
+            <i class="bi bi-chevron-left"></i>
+            <p class="text-[14px] font-light cursor-pointer">
+              Back to About Us
+            </p>
+          </div>
+          <h1 class="text-[70px] mb-[30px] cursor-pointer">
+            New at McKisney Blog
+          </h1>
+          <p class="font-light text-[18px]">
+            A collection of stories about our people, our capabilities, our
+            research, and the ever-changing face of our firm.
+          </p>
+          <div class="flex items-center gap-2 mt-[50px] mb-[20px]">
+            <div
+              class="px-[11px] py-[5px] bg-black rounded-full text-white text-[20px] font-bold hover:bg-blue-500 hover:text-white cursor-pointer"
+            >
+              In
+            </div>
+
+            <div
+              class="px-[14px] py-[5px] bg-black rounded-full text-white text-[20px] font-bold hover:bg-blue-500 hover:text-white cursor-pointer"
+            >
+              X
+            </div>
+
+            <div
+              class="px-[16px] py-[5px] bg-black rounded-full text-white text-[20px] font-bold hover:bg-blue-500 hover:text-white cursor-pointer"
+            >
+              f
+            </div>
+          </div>
+          <div
+            class="flex items-center justify-between pb-[15px] border-b border-gray-500 mb-[15px]"
+          >
+            <p class="font-medium">BROWSE ALL POSTS</p>
+            <div class="flex items-center gap-[10px]">
+              <p class="font-light">Browse by:</p>
+              <a href="#" class="text-blue-700">Topic |</a>
+              <a href="#" class="text-blue-700">Date</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------- Intro Section ----------->
+      <section id="cards">
+        <div class="container mx-auto px-4">
+          <div class="wrapper flex items-start justify-around">
+            <div
+              class="cards__wrapper-left flex flex-wrap gap-[25px] mb-[20px]"
+            >
+              <div class="card w-[400px] bg-white hover:shadow-2xl h-[530px] cursor-pointer">
+                <img src="./assets/images/card1.png" alt="smthimg" />
+                <div class="card__body px-4 py-2">
+                  <h2 class="text-[21px] font-bold">
+                    McKinsey convenes leaders to prepare for AI's effect on New
+                    York region and beyond
+                  </h2>
+                  <p class="text-[15px] text-gray-800 mt-[15px] mb-[20px]">
+                    March 26, 2024 - From Governor Hochul and Mayor Adams to
+                    singer-songwriter John Legend, McKinsey’s second Future of
+                    NY Summit took a broad look at how AI will affect the
+                    region.
+                  </p>
+                  <a class="text-gray-500 cursor-pointer">AI & Analystics</a>
+                </div>
+              </div>
+
+              <div class="card w-[400px] bg-white hover:shadow-2xl h-[530px] cursor-pointer">
+                <img src="./assets/images/card2.png" alt="smthimg" />
+                <div class="card__body px-4 py-2">
+                  <h2 class="text-[21px] font-bold">
+                    McKinsey convenes leaders to prepare for AI's effect on New
+                    York region and beyond
+                  </h2>
+                  <p class="text-[15px] text-gray-800 mt-[15px] mb-[20px]">
+                    March 26, 2024 - From Governor Hochul and Mayor Adams to
+                    singer-songwriter John Legend, McKinsey’s second Future of
+                    NY Summit took a broad look at how AI will affect the
+                    region.
+                  </p>
+                  <a class="text-gray-500 cursor-pointer">AI & Analystics</a>
+                </div>
+              </div>
+
+              <div class="card w-[400px] bg-white hover:shadow-2xl h-[530px]  cursor-pointer">
+                <img src="./assets/images/card5.png" alt="smthimg" />
+                <div class="card__body px-4 py-2">
+                  <h2 class="text-[21px] font-bold">
+                    McKinsey convenes leaders to prepare for AI's effect on New
+                    York region and beyond
+                  </h2>
+                  <p class="text-[15px] text-gray-800 mt-[15px] mb-[20px]">
+                    March 26, 2024 - From Governor Hochul and Mayor Adams to
+                    singer-songwriter John Legend, McKinsey’s second Future of
+                    NY Summit took a broad look at how AI will affect the
+                    region.
+                  </p>
+                  <a class="text-gray-500 cursor-pointer">AI & Analystics</a>
+                </div>
+              </div>
+
+              <div class="card w-[400px] bg-white hover:shadow-2xl h-[530px] cursor-pointer">
+                <img src="./assets/images/card3.png" alt="smthimg" />
+                <div class="card__body px-4 py-2">
+                  <h2 class="text-[21px] font-bold">
+                    McKinsey convenes leaders to prepare for AI's effect on New
+                    York region and beyond
+                  </h2>
+                  <p class="text-[15px] text-gray-800 mt-[15px] mb-[20px]">
+                    March 26, 2024 - From Governor Hochul and Mayor Adams to
+                    singer-songwriter John Legend, McKinsey’s second Future of
+                    NY Summit took a broad look at how AI will affect the
+                    region.
+                  </p>
+                  <a class="text-gray-500 cursor-pointer">AI & Analystics</a>
+                </div>
+              </div>
+
+              <div class="card w-[400px] bg-white hover:shadow-2xl h-[530px] cursor-pointer">
+                <img src="./assets/images/card4.png" alt="smthimg" />
+                <div class="card__body px-4 py-2">
+                  <h2 class="text-[21px] font-bold">
+                    McKinsey convenes leaders to prepare for AI's effect on New
+                    York region and beyond
+                  </h2>
+                  <p class="text-[15px] text-gray-800 mt-[15px] mb-[20px]">
+                    March 26, 2024 - From Governor Hochul and Mayor Adams to
+                    singer-songwriter John Legend, McKinsey’s second Future of
+                    NY Summit took a broad look at how AI will affect the
+                    region.
+                  </p>
+                  <a class="text-gray-500 cursor-pointer">AI & Analystics</a>
+                </div>
+              </div>
+
+              <div class="card w-[400px] bg-white hover:shadow-2xl h-[530px]  cursor-pointer">
+                <img src="./assets/images/card5.png" alt="smthimg" />
+                <div class="card__body px-4 py-2">
+                  <h2 class="text-[21px] font-bold">
+                    McKinsey convenes leaders to prepare for AI's effect on New
+                    York region and beyond
+                  </h2>
+                  <p class="text-[15px] text-gray-800 mt-[15px] mb-[20px]">
+                    March 26, 2024 - From Governor Hochul and Mayor Adams to
+                    singer-songwriter John Legend, McKinsey’s second Future of
+                    NY Summit took a broad look at how AI will affect the
+                    region.
+                  </p>
+                  <a class="text-gray-500 cursor-pointer">AI & Analystics</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="cards__wrapper-right mb-[30px]">
+              <div class="request bg-slate-800 w-[400px] pt-[30px]">
+                <h2
+                  class="text-center text-white pt-[40px] text-[25px] mb-[15px]"
+                >
+                  Never miss a story
+                </h2>
+                <p class="text-center text-white text-[18px]">
+                  Stay updated about McKinsey news as it <br />
+                  happens
+                </p>
+                <div
+                  class="pb-[60px] pt-[15px] flex items-center justify-center gap-[5px]"
+                >
+                  <input
+                    type="text"
+                    placeholder="Email address"
+                    class="py-3 px-4 border-2 border-slate-800 hover:border-2 hover:border-blue-500"
+                  />
+                  <button
+                    class="bg-blue-500 py-[9px] px-6 text-[20px] text-black hover:bg-white"
+                  >
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="card w-[400px] bg-white hover:shadow-2xl mt-[20px]  cursor-pointer">
+                <img src="./assets/images/card2.png" alt="smthimg" />
+                <div class="card__body px-4 py-2">
+                  <h2 class="text-[21px] font-bold">
+                    McKinsey convenes leaders to prepare for AI's effect on New
+                    York region and beyond
+                  </h2>
+                  <p class="text-[15px] text-gray-800 mt-[15px] mb-[20px]">
+                    March 26, 2024 - From Governor Hochul and Mayor Adams to
+                    singer-songwriter John Legend, McKinsey’s second Future of
+                    NY Summit took a broad look at how AI will affect the
+                    region.
+                  </p>
+                  <a class="text-gray-500 cursor-pointer">AI & Analystics</a>
+                </div>
+              </div>
+
+              <div class="card w-[400px] bg-white hover:shadow-2xl mt-[20px]  cursor-pointer">
+                <img src="./assets/images/card5.png" alt="smthimg" />
+                <div class="card__body px-4 py-2">
+                  <h2 class="text-[21px] font-bold">
+                    McKinsey convenes leaders to prepare for AI's effect on New
+                    York region and beyond
+                  </h2>
+                  <p class="text-[15px] text-gray-800 mt-[15px] mb-[20px]">
+                    March 26, 2024 - From Governor Hochul and Mayor Adams to
+                    singer-songwriter John Legend, McKinsey’s second Future of
+                    NY Summit took a broad look at how AI will affect the
+                    region.
+                  </p>
+                  <a class="text-gray-500 cursor-pointer">AI & Analystics</a>
+                </div>
+              </div>
+
+              <div
+                class="card w-[400px] bg-white hover:shadow-2xl mt-[20px] cursor-pointer"
+              >
+                <img src="./assets/images/card2.png" alt="smthimg" />
+                <div class="card__body px-4 py-2">
+                  <h2 class="text-[21px] font-bold">
+                    McKinsey convenes leaders to prepare for AI's effect on New
+                    York region and beyond
+                  </h2>
+                  <p class="text-[15px] text-gray-800 mt-[15px] mb-[20px]">
+                    March 26, 2024 - From Governor Hochul and Mayor Adams to
+                    singer-songwriter John Legend, McKinsey’s second Future of
+                    NY Summit took a broad look at how AI will affect the
+                    region.
+                  </p>
+                  <a class="text-gray-500 cursor-pointer">AI & Analystics</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!----------- Footer Section ---------->
+    <footer class="bg-white py-[30px]">
+      <div class="container mx-auto px-4">
+        <div
+          class="footer__wrapper flex items-end justify-between pb-[20px] border-b border-gray-500"
+        >
+          <div class="footer__left">
+            <img src="./assets/images/logo.png" alt="logo" class="mb-[30px]" />
+            <b>Subscribe</b>
+            <p class="text-gray-500 mt-[20px] mb-[10px]">
+              Select topics and stay current with our latest insights
+            </p>
+            <div class="mt-[20px] flex items-center gap-[10px]">
+              <input
+                type="text"
+                class="border border-black py-3 px-4 w-[300px]"
+                placeholder="Email address"
+              />
+              <button
+                class="py-[15px] px-10 bg-blue-700 text-white text-[14px] border hover:bg-white hover:border hover:border-blue-500 hover:text-blue-500"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+
+          <div class="footer__right">
+            <ul class="flex items-center gap-[20px]">
+              <li
+                class="hover:text-blue-500 hover:border-b hover:border-blue-500 border-b border-white cursor-pointer font-bold"
+              >
+                Contact us
+              </li>
+              <li
+                class="hover:text-blue-500 hover:border-b hover:border-blue-500 border-b border-white cursor-pointer font-bold"
+              >
+                FAQ
+              </li>
+              <li
+                class="hover:text-blue-500 hover:border-b hover:border-blue-500 border-b border-white cursor-pointer font-bold"
+              >
+                Privacy policy
+              </li>
+              <li
+                class="hover:text-blue-500 hover:border-b hover:border-blue-500 border-b border-white cursor-pointer font-bold"
+              >
+                Cookie preferences
+              </li>
+              <li
+                class="hover:text-blue-500 hover:border-b hover:border-blue-500 border-b border-white cursor-pointer font-bold"
+              >
+                Terms of use
+              </li>
+            </ul>
+
+            <ul class="flex items-center gap-[20px] mt-[20px]">
+              <li
+                class="hover:text-blue-500 hover:border-b hover:border-blue-500 border-b border-white cursor-pointer font-bold"
+              >
+                Local language information
+              </li>
+              <li
+                class="hover:text-blue-500 hover:border-b hover:border-blue-500 border-b border-white cursor-pointer font-bold"
+              >
+                Accessibility statement
+              </li>
+            </ul>
+
+            <div class="flex items-center gap-2 mt-[20px]">
+              <div
+                class="px-[11px] py-[5px] bg-black rounded-full text-white text-[20px] font-bold hover:bg-blue-500 hover:text-white cursor-pointer"
+              >
+                In
+              </div>
+
+              <div
+                class="px-[14px] py-[5px] bg-black rounded-full text-white text-[20px] font-bold hover:bg-blue-500 hover:text-white cursor-pointer"
+              >
+                X
+              </div>
+
+              <div
+                class="px-[16px] py-[5px] bg-black rounded-full text-white text-[20px] font-bold hover:bg-blue-500 hover:text-white cursor-pointer"
+              >
+                f
+              </div>
+
+              <div
+                class="px-[10px] py-[5px] bg-black rounded-full text-white text-[20px] font-bold hover:bg-blue-500 hover:text-white cursor-pointer"
+              >
+                <i class="bi bi-youtube"></i>
+              </div>
+
+              <div
+                class="px-[10px] py-[5px] bg-black rounded-full text-white text-[20px] font-bold hover:bg-blue-500 hover:text-white cursor-pointer"
+              >
+                <i class="bi bi-wifi"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom flex items-center justify-between my-[20px]">
+          <div class="flex items-center gap-[10px]">
+            <p class="text-gray-500">
+              McKinsey Insights - Get our latest thinking on your iPhone,
+              <br />iPad, or Android device.
+            </p>
+            <div class="flex items-center gap-[10px]">
+              <button
+                class="flex items-center bg-black py-2 px-4 rounded-lg gap-[10px]"
+              >
+                <i class="bi bi-apple text-white text-[25px]"></i>
+                <p class="text-[10px] text-white">
+                  Download on the <br />
+                  <span class="text-[18px] font-bold">App Store</span>
+                </p>
+              </button>
+              <button class="flex items-center bg-black px-4 rounded-lg">
+                <img src="./assets/images/playMarket.png" alt="smthimg" />
+                <p class="text-[10px] text-left font-semibold text-white">
+                  GET IT ON <br />
+                  <span class="text-[18px]">PLAY MARKET</span>
+                </p>
+              </button>
+            </div>
+          </div>
+          <p class="text-gray-500">© 1996-2024 McKinsey & Company</p>
+        </div>
+      </div>
+    </footer>
+    <!----------- Footer Section ---------->
+  </body>
+  <script src="./app.js"></script>
+</html>
